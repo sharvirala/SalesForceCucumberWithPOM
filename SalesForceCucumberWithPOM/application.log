@@ -1,0 +1,17 @@
+2022-05-29 23:33:10,133  INFO [main] BaseTestPOM:165 - pass: username field element cleared
+2022-05-29 23:33:10,235  INFO [main] BaseTestPOM:72 - pass:username field text entered
+2022-05-29 23:33:10,334  INFO [main] BaseTestPOM:165 - pass: passwordfield element cleared
+2022-05-29 23:33:15,909  INFO [main] BaseTestPOM:184 -  cursor moved to loginbtn and click operation done
+2022-05-29 23:33:18,642  INFO [main] BaseTestPOM:165 - pass: username field element cleared
+2022-05-29 23:33:18,956  INFO [main] BaseTestPOM:72 - pass:username field text entered
+2022-05-29 23:33:19,354  INFO [main] BaseTestPOM:165 - pass: passwordfield element cleared
+2022-05-29 23:33:19,422  INFO [main] BaseTestPOM:72 - pass:passwordfield text entered
+2022-05-29 23:33:26,558  INFO [main] BaseTestPOM:184 -  cursor moved to loginbtn and click operation done
+2022-05-29 23:33:30,626  INFO [main] BaseTestPOM:165 - pass: username field element cleared
+2022-05-29 23:33:30,916  INFO [main] BaseTestPOM:72 - pass:username field text entered
+2022-05-29 23:33:31,244  INFO [main] BaseTestPOM:165 - pass: passwordfield element cleared
+2022-05-29 23:33:31,493  INFO [main] BaseTestPOM:72 - pass:passwordfield text entered
+2022-05-29 23:33:31,759  INFO [main] BaseTestPOM:184 -  cursor moved to checkboxele and click operation done
+2022-05-29 23:33:37,949  INFO [main] BaseTestPOM:184 -  cursor moved to loginbtn and click operation done
+2022-05-29 23:33:39,708  INFO [main] BaseTestPOM:184 -  cursor moved to usermenu and click operation done
+2022-05-29 23:33:40,441  INFO [main] BaseTestPOM:184 -  cursor moved to logout and click operation done
