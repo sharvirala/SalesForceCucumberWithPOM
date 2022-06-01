@@ -2,18 +2,18 @@ package com.steps;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
+//import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+//import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+//import org.testng.annotations.AfterTest;
+//import org.testng.annotations.BeforeTest;
 import org.testng.asserts.SoftAssert;
 
 import com.salesforce.pages.homepages.Homepage;
 import com.salesforce.pages.loginPages.Loginpage;
-import com.salesforce.pages.homepages.Homepage;
-import com.salesforce.pages.loginPages.Loginpage;
+//import com.salesforce.pages.homepages.Homepage;
+//import com.salesforce.pages.loginPages.Loginpage;
 //import com.salesforce.base.BasePage;
 //import com.salesforce.utility.CommonUtilities;
 //import com.salesforce.utility.CommonUtilities;

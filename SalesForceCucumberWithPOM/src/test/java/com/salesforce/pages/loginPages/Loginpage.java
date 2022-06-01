@@ -7,7 +7,7 @@ import org.openqa.selenium.interactions.Mouse;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.salesforcepom.base.BasePage;
+import com.salesforce.base.BasePage;
 
 public class Loginpage extends BasePage
 {
@@ -30,18 +30,18 @@ public class Loginpage extends BasePage
 		waitUntilVisibilityOf(userName, "username field");
 		
 		
-		enterText(userName, username,"username field");
+		enterText(userName, username);
 	}
 	public void clearpasswordfield()
 	{
-		clearElement(passWord,"passwordfield");
+		clearElement(passWord);
 	}
 	public void enterPassword(String Password)
 	
 	{
 		waitUntilVisibilityOf(passWord," Password field");
 		
-		enterText(passWord, Password, "passwordfield");
+		enterText(passWord, Password);
 	}
 	
 	

@@ -107,7 +107,7 @@ public class BasePage {
 			System.out.println("fail: element not displayed");
 		}
 	}
-	public   void waitUntilVisibilityOf(WebElement element,String objName)
+	public static   void waitUntilVisibilityOf(WebElement element,String objName)
 	{
 		 WebDriverWait wait=new WebDriverWait(driver,30);
 		  wait.until(ExpectedConditions.visibilityOf(element));
@@ -148,6 +148,22 @@ public class BasePage {
 		return text; 
 		
 	}
+	protected static String getText(WebElement element ,String objName)
+	{
+		
+		String text=element.getText();
+		return text;
+	}
+	public static void mouseOverAndClick(WebElement element,String objName)
+	{
+		waitUntilVisibilityOf( element, objName);
+			Actions action=new Actions(driver);
+		   action.moveToElement(element).build().perform();
+		   action.click().build().perform();
+		   log.info(" cursor moved to "+objName+" and click operation done");
+	    
+		}
+	
 	public static void dissmisAlert() {
 		waitUntilAlertIsPresent();
 		Alert alert=driver.switchTo().alert();
